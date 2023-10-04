@@ -1,0 +1,31 @@
+/* 08-pseudo-classes */
+
+img:hover {
+    opacity: 0.5;
+}
+
+h2:hover {
+    color:purple;
+}
+
+q:hover {
+    color: red;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: grey;
+    
+}
+
+a:active {
+    color: green;
+  }
