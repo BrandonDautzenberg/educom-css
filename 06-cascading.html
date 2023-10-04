@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+
+    <body>
+        <h2>Reguliere link</h2>
+        <a href="https://google.com">Reguliere link naar google</a>
+
+        <!--Cascading volgens "cascadingParent" en "cascadingChild" relatie-->
+        <div class="cascadingParent">
+            <h2>Cascaded link to google:</h2>
+            <a href="http://google.com">Cascaded link to google</a>
+            <h3>Cascaded link to Educom:</h3>
+            <a href="https://e-learning.educom.nu">Course Site</a>
+            <div class="cascadingChild">
+            <h2>Deze tekst hoort geel te zijn</h2>
+            <h3>Deze tekst hoort blauw te zijn</h3>
+            <a href="http://google.com">Deze link is zwart</a>
+            <h1>Deze tekst hoort aquamarijn te zijn</h1>
+            </div>
+        </div>
+
+        <!--Reguliere "a" cascading-->
+            <a href="https://google.com"> Deze link is weer paars</a>
+
+        <!--Reguliere "h1" cascading-->
+        <h1>Deze tekst is bruin</h1>
+       
+    </body>
+</html>

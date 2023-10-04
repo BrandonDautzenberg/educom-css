@@ -83,3 +83,35 @@ Zo heeft great-great-grandchild hetzelfde lettertype als twee generaties ervoor.
     border-radius: 50%;
     
 }
+
+/* 06-cascading */
+
+a { 
+    font-size: 50px;
+    color:#F0F;
+}
+
+h1 {
+    color: brown;
+}
+
+.cascadingParent h1 {
+    color: aquamarine;
+}
+
+.cascadingParent h2 {
+    color:#FD0;
+}
+.cascadingParent h3 {
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cascadingParent a {
+    font-size: 20px;
+    color: black;
+}
+
+.cascadingChild {
+    font-size: 30px;
+}
