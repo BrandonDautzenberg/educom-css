@@ -8,3 +8,24 @@
     background-color: rgba(255,0,0,0.4);
     display: inline-block;
 }
+
+/*04-applying-styles */
+.huge-red-circle {
+    width: 400px;
+    height: 400px;
+    color: black;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.black-oval {
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
