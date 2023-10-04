@@ -1,0 +1,71 @@
+:root {
+
+    /* FONTS */
+    --regular:"Arial";
+    --regular2: "Times New Roman";
+    --hideous:"Comic Sans MS";
+
+    /* COLORS */
+    --red: #FF284B;
+    --green: #7DB954;
+    --orange: #FFA700;
+    --pink: #F56093;
+
+    /* TEXT SIZES */
+    --tiny: 5px;
+    --small: 10px;
+    --huge: 30px;
+
+    /* IMAGE SIZES */
+    --tinyImg: 30px;
+    --mediumImg: 70px;
+    --largeImg: 150px;
+
+    /* BORDERS */
+    --smallBlack: 1px solid black; 
+    --chunkyGrey: 5px solid grey;
+    --veryLargeBlue: 20px solid blue;
+
+    /* MARGIN */
+    --aLotOfMargin: 60px;
+}
+
+q {
+    font-family: var(--regular);
+    font-size: var(--tiny);
+    color: var(--red);
+}
+
+p {
+    font-family: var(--hideous);
+    font-size: var(--small)
+}
+
+em {
+    font-family: var(--regular);
+    color: var(--orange);
+    font-size: var(--huge);
+    border: var(--smallBlack);
+}
+
+img {
+    height: var(--largeImg);
+    margin: var(--aLotOfMargin);
+}
+
+img:hover {
+    opacity: 0.7;
+    border: var(--chunkyGrey);
+}
+
+div {
+    font-family: var(--regular2);
+    color: var(--green);
+    border: var(--chunkyGrey);
+    margin: var(--aLotOfMargin);
+}
+
+h2 {
+    text-align: center;
+    font-family: var(--regular2);
+}
