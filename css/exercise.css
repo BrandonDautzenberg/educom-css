@@ -125,3 +125,33 @@ html, body {
 }
 
 /* MENU */
+
+.menu {
+    position: fixed;
+    top: 20x;
+    right: 20px;
+}
+
+.menu-trigger { 
+    width: 40px;
+    height: 40px;
+    cursor: pointer; 
+    transition: all 0.4s ease; 
+    z-index: 5000 !important;
+}
+
+
+.menu-trigger:hover .dropdown{ 
+    top: 0px;
+}
+
+.dropdown { 
+    position: fixed;
+    top: -400px; 
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgb(212, 211, 211);
+    transition: all 0.4s ease; 
+    padding: 40px;
+}
