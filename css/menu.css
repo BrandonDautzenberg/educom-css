@@ -1,0 +1,33 @@
+.menu {
+    position: fixed;
+    top: 20x;
+    right: 20px;
+}
+
+.menu-trigger { /* Dit is de rode vierkant rechtsboven in het scherm */
+    background-color: #F00;
+    width: 40px;
+    height: 40px;
+    cursor: pointer; /* Verandert de vorm van de cursor */
+    transition: all 0.4s ease; /* Rode vierkant verandert langzaam van kleur */
+    z-index: 5000 !important;
+}
+
+.menu-trigger:hover { /* Rode rechthoek verandert in gele vierkant */
+    background-color: #FFF000;
+}
+
+.menu-trigger:hover .dropdown{ /* Dit triggert het dropdown menu linksboven */
+    top: 0px;
+}
+
+.dropdown { /* De vorm van het dropdown menu */
+    position: fixed;
+    top: -400px; /* Dropdown menu verschuilt zich boven het scherm, bij 0px staat het menu er al */
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: #FDF;
+    transition: all 0.4s ease; /* Zorgt ervoor dat het dropdown menu niet plotseling verschijnt/verdwijnt */
+    padding: 40px; /* Bepaalt de breedte van het dropdown menu */
+}
